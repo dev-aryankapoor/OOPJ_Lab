@@ -1,3 +1,4 @@
+package lab1;
 class lab1_4{
 	public static void main(String ar[]){
 
@@ -11,10 +12,10 @@ class lab1_4{
 			b=b/10;}
 
 		if(sum==a)
-			System.out.println("yes");
+			System.out.println("yes a palindrome");
 
 		else
-			System.out.println("no");
+			System.out.println("not a palindrome");
 
 		}}
 

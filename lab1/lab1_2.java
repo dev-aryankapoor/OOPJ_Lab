@@ -1,3 +1,4 @@
+package lab1;
 class lab1_2{
 	public static void main(String ar[]){
 

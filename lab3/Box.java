@@ -1,3 +1,5 @@
+package lab3;
+
 class Box {
 float l;
 float w;
