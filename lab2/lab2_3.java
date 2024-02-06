@@ -15,4 +15,6 @@ public class lab2_3{
 		System.out.println("and: "+and);
 		System.out.println("or: "+or);
 		System.out.println("xor: "+xor);
+
+		var.close();
 	}}
