@@ -14,7 +14,7 @@ class myBox
         h= input.nextFloat();
         Box b1= new Box();
         Box b2= new Box(l);
-        Box b3=new Box(l,w);
+        Box b3= new Box(l,w);
 
         b1.volume();
         b2.volume();

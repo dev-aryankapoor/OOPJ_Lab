@@ -1,3 +1,5 @@
+package lab3;
+
 public class lab3_1{
 	public int multiplication(int x, int y){
 		return (x*y);

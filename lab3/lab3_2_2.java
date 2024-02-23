@@ -1,3 +1,4 @@
+package lab3;
 import java.util.Scanner;
 
 public class lab3_2_2 {
@@ -21,4 +22,5 @@ public class lab3_2_2 {
         Box box3 = new Box(length, width, height);
         System.out.println("Volume of box3: " + box3.volume());
     }
+
 }
