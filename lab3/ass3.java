@@ -48,5 +48,7 @@ public class ass3 {
         a1.modify_int_rate(7);
         // savingsAcc.modify_int_rate(7);
         a1.cal_int(acc_no, name, balance);
+
+        sc.close();
     }
 }
