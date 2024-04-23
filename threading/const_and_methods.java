@@ -32,19 +32,21 @@ public class const_and_methods {
 
         // Thread t = new Thread("myname");
         // Thread t = new Thread(new myrun());
-        // Thread t = new Thread(new myrun(),"myname");
+        // Thread t = new Thread(new myrun(), "myname");
 
         // you can set priority here too
 
         // System.out.println("ID:" + t.getId());
-        // System.out.println("NAME:" + t.getName());
+        System.out.println("NAME:" + t.getName());
         // System.out.println("PRIORITY:" + t.getPriority());
-        // // t.start();
+        System.out.println("ALIVE:" + t.isAlive());
+        t.start();
         // System.out.println("STATE:" + t.getState()); // add a '.' to see all possible
         // states
-        // System.out.println("ALIVE:" + t.isAlive());
+        t.setPriority(9);
+        System.out.println(t.getPriority());
 
-        t.start();
+        // t.start();
         t.interrupt();
 
     }
