@@ -11,7 +11,7 @@ class myFrame extends JFrame implements ActionListener {
     int count = 0;
 
     myFrame() {
-        super("swing demo");
+        super("probono");
 
         setLayout(new FlowLayout());
 

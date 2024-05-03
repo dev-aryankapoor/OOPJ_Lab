@@ -37,7 +37,6 @@ public class sync {
         mydata d = new mydata();
         mythread1 t1 = new mythread1(d);
         mythread2 t2 = new mythread2(d);
-
         t1.setPriority(Thread.MIN_PRIORITY);
         t2.setPriority(Thread.MAX_PRIORITY);
 

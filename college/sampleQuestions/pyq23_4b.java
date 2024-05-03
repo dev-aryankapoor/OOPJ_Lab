@@ -3,7 +3,7 @@ package sampleQuestions;
 interface volume {
     double calc_vol(double radius, double height);
 
-    double PI = 3.14;
+    final double PI = 3.14;
 }
 
 class cylinder implements volume {
