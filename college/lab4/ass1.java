@@ -19,5 +19,6 @@ public class ass1 {
                     System.out.println("the repeadted element is: " + array[i]);
             }
         }
+        sc.close();
     }
 }

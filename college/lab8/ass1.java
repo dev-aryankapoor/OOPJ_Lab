@@ -45,7 +45,7 @@ class l8_1 {
     }
 
     public static void main(String[] args) {
-        NumberProcessor processor = new NumberProcessor();
-        processor.processInput();
+        // NumberProcessor processor = new NumberProcessor();
+        // processor.processInput();
     }
 }

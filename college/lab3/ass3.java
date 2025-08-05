@@ -8,7 +8,7 @@ class savingsAcc {
     String name;
     float balance;
 
-    static float modify_int_rate(float new_rate) {
+    float modify_int_rate(float new_rate) {
         float temp;
         temp = int_rate;
         int_rate = new_rate;
